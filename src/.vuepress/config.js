@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/',
+  base: '/studyLog/',
   title: 'hcl-log',
   dest: 'docs',
   description: '个人的学习的笔记',
