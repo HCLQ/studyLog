@@ -1,11 +1,12 @@
 module.exports = {
   base: '/',
   title: 'hcl-log',
+  dest: 'docs',
   description: '个人的学习的笔记',
   serviceWorker: {},
   themeConfig: {
     repo: 'https://github.com/HCLQ/studyLog',
-    repoLabel: 'GitLab',
+    repoLabel: 'GitHub',
     lastUpdated: 'Last Updated',
     editLinks: false,
     docsDir: 'docs',
@@ -17,7 +18,7 @@ module.exports = {
     },
 
     sidebar: {
-      '/study/': ['vue-next', 'vue-cli-plugin']
+      '/study/': ['', 'vue-next', 'vue-cli-plugin']
     }
   }
 }
